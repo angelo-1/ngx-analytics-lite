@@ -1,0 +1,43 @@
+{
+  "name": "ngx-analytics-lite",
+  "version": "1.0.0",
+  "description": "Enterprise-ready Angular Analytics & Chart Wrapper Library built on Chart.js",
+  "keywords": [
+    "angular",
+    "chart.js",
+    "analytics",
+    "dashboard",
+    "charts",
+    "pie-chart",
+    "bar-chart",
+    "line-chart",
+    "ngx",
+    "standalone"
+  ],
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/ngx-analytics-lite"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/ngx-analytics-lite/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/ngx-analytics-lite#readme",
+  "peerDependencies": {
+    "@angular/common": ">=17.0.0",
+    "@angular/core": ">=17.0.0",
+    "@angular/forms": ">=17.0.0",
+    "chart.js": ">=4.0.0",
+    "rxjs": ">=7.0.0"
+  },
+  "peerDependenciesMeta": {
+    "chart.js": {
+      "optional": false
+    }
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

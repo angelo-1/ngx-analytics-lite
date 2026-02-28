@@ -1,0 +1,47 @@
+{
+  "name": "ngx-analytics-lite-workspace",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "build:lib": "ng build ngx-analytics-lite --configuration production",
+    "build:lib:watch": "ng build ngx-analytics-lite --watch",
+    "test:lib": "ng test ngx-analytics-lite --watch=false",
+    "test:lib:cov": "ng test ngx-analytics-lite --watch=false --code-coverage",
+    "test:lib:watch": "ng test ngx-analytics-lite",
+    "lint": "ng lint ngx-analytics-lite",
+    "release:patch": "npm version patch -w projects/ngx-analytics-lite && npm run build:lib && cd dist/ngx-analytics-lite && npm publish --access public",
+    "release:minor": "npm version minor -w projects/ngx-analytics-lite && npm run build:lib && cd dist/ngx-analytics-lite && npm publish --access public",
+    "release:major": "npm version major -w projects/ngx-analytics-lite && npm run build:lib && cd dist/ngx-analytics-lite && npm publish --access public"
+  },
+  "private": true,
+  "packageManager": "npm@10.8.2",
+  "dependencies": {
+    "@angular/common": "^21.2.0",
+    "@angular/compiler": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@angular/forms": "^21.2.0",
+    "@angular/platform-browser": "^21.2.0",
+    "@angular/router": "^21.2.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^21.2.0",
+    "@angular/build": "^21.2.0",
+    "@angular/cli": "^21.2.0",
+    "@angular/compiler-cli": "^21.2.0",
+    "@types/jasmine": "^6.0.0",
+    "chart.js": "^4.5.1",
+    "jasmine-core": "^6.1.0",
+    "jsdom": "^28.0.0",
+    "karma": "^6.4.4",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-coverage": "^2.2.1",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.2.0",
+    "ng-packagr": "^21.2.0",
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.2",
+    "vitest": "^4.0.8"
+  }
+}
