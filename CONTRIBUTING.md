@@ -8,7 +8,7 @@ Thank you for your interest in contributing! This document explains how to get s
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/ngx-analytics-lite.git
+git clone https://github.com/angelo-1/ngx-analytics-lite.git
 cd ngx-analytics-lite
 
 # 2. Install dependencies

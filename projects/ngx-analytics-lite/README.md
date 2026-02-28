@@ -1,8 +1,8 @@
 # ngx-analytics-lite
 
 [![npm version](https://img.shields.io/npm/v/ngx-analytics-lite.svg?style=flat-square)](https://www.npmjs.com/package/ngx-analytics-lite)
-[![CI](https://github.com/YOUR_USERNAME/ngx-analytics-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/ngx-analytics-lite/actions)
-[![codecov](https://codecov.io/gh/YOUR_USERNAME/ngx-analytics-lite/branch/main/graph/badge.svg)](https://codecov.io/gh/YOUR_USERNAME/ngx-analytics-lite)
+[![CI](https://github.com/angelo-1/ngx-analytics-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/angelo-1/ngx-analytics-lite/actions)
+[![codecov](https://codecov.io/gh/angelo-1/ngx-analytics-lite/branch/main/graph/badge.svg)](https://codecov.io/gh/angelo-1/ngx-analytics-lite)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Angular](https://img.shields.io/badge/Angular-17%2B-red.svg)](https://angular.dev)
 [![Chart.js](https://img.shields.io/badge/Chart.js-4%2B-pink.svg)](https://www.chartjs.org)
@@ -349,7 +349,7 @@ cd dist/ngx-analytics-lite && npm publish --access public
 Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) first.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ngx-analytics-lite
+git clone https://github.com/angelo-1/ngx-analytics-lite
 npm install
 npm run build:lib -- --watch
 npm run test:lib

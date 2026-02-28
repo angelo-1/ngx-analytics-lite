@@ -18,12 +18,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/ngx-analytics-lite"
+    "url": "https://github.com/angelo-1/ngx-analytics-lite"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/ngx-analytics-lite/issues"
+    "url": "https://github.com/angelo-1/ngx-analytics-lite/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/ngx-analytics-lite#readme",
+  "homepage": "https://github.com/angelo-1/ngx-analytics-lite#readme",
   "peerDependencies": {
     "@angular/common": ">=17.0.0",
     "@angular/core": ">=17.0.0",
