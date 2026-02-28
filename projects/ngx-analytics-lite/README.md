@@ -1,5 +1,7 @@
 # ngx-analytics-lite
 
+🚀 **[View Live Demo Playground](https://angelo-1.github.io/ngx-analytics-lite/)** 🚀
+
 [![npm version](https://img.shields.io/npm/v/ngx-analytics-lite.svg?style=flat-square)](https://www.npmjs.com/package/ngx-analytics-lite)
 [![CI](https://github.com/angelo-1/ngx-analytics-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/angelo-1/ngx-analytics-lite/actions)
 [![codecov](https://codecov.io/gh/angelo-1/ngx-analytics-lite/branch/main/graph/badge.svg)](https://codecov.io/gh/angelo-1/ngx-analytics-lite)
