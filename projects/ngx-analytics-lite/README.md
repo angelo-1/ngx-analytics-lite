@@ -14,6 +14,17 @@
 
 ---
 
+## ❓ What is this library?
+
+`ngx-analytics-lite` is a complete, out-of-the-box UI toolkit designed for developers who need to quickly drop beautiful, data-driven dashboards into their Angular applications. Instead of spending hours plumbing raw Chart.js configurations, handling zero-value edge cases, mapping click events, and formatting data tables, this library handles the heavy lifting for you.
+
+**What is it used for?**
+- 📈 **Building Admin Panels:** Instantly create metric dashboards for revenue, users, or system resources.
+- 🚀 **Rapid Prototyping:** Drop in a `ChartCard` and pass standard JSON data. No need to write HTML/CSS boilerplates.
+- ⚙️ **Complex Interactions:** Seamlessly link charts to other components using built-in interactive click events and a reactive Filter Service payload.
+
+---
+
 ## ✨ Features
 
 | Feature | Details |
