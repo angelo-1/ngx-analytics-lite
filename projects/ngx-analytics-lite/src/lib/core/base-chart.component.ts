@@ -4,7 +4,7 @@ import {
   Output,
   EventEmitter,
   ElementRef,
-  OnInit,
+  AfterViewInit,
   OnChanges,
   OnDestroy,
   SimpleChanges,
@@ -40,7 +40,7 @@ import { deepEquals } from '../utils/deep-equals.utils';
 export abstract class BaseChartComponent<
   T extends AnalyticsRecord = AnalyticsRecord,
   CT extends ChartType = ChartType
-> implements OnInit, OnChanges, OnDestroy {
+> implements AfterViewInit, OnChanges, OnDestroy {
 
   /** The analytics data source. Changing this triggers smart refresh. */
   @Input({ required: true }) data!: AnalyticsDataSource<T>;
@@ -103,19 +103,14 @@ export abstract class BaseChartComponent<
 
   // ─── Lifecycle ───────────────────────────────────────────────────────────────
 
-  ngOnInit(): void {
+  ngAfterViewInit(): void {
     this.initChart();
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (!this.chart) {
-      // Chart not yet initialized (possible if changes fire before ngOnInit)
-      return;
-    }
-
     const configChanged = !!changes['config'];
     const dataChanged =
-      !!changes['data'] && !deepEquals(changes['data'].currentValue, this._previousData);
+      !!changes['data'] && (!this._previousData || !deepEquals(changes['data'].currentValue, this._previousData));
 
     if (configChanged) {
       // Configuration change: recreate chart (rare, acceptable cost)

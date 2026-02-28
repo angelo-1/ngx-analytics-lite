@@ -52,7 +52,7 @@ registerSharedChartComponents();
         icon="📈"
       />
       <canvas
-        *ngIf="!shouldHideChart"
+        [style.display]="shouldHideChart ? 'none' : 'block'"
         class="ngx-line-chart__canvas"
         role="img"
         [attr.aria-label]="config.title ?? 'Line Chart'"
